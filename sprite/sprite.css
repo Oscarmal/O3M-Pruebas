@@ -1,0 +1,84 @@
+/*Sprite pricipal, contiene todas las imagenes*/
+.master_sprite{  
+	background-image:url("master_sprite.png");
+}
+/*Fin Sprute principal*/
+
+/* Empieza Breadcrumb */
+#breadcrumb{
+display:block;
+height:21px;
+margin:0 0 10px 10px;
+font-size:11px;
+/*border: 1px solid #333;*/
+}
+
+	#breadcrumb div{
+	display:block;
+	float:left;
+	margin-left:0;
+	padding:5px 14px 5px 0;
+	}
+	
+		#breadcrumb .crumbfirst{
+			background-color:#E8E8E8;
+			background-position:right -1152px; /*right -1152px;*/ /*Horizontal Vertical*/
+			background-repeat:no-repeat;
+			border-left:1px solid #8F8F8F;
+			padding-left:5px;
+		}
+		
+		#breadcrumb .crumbmiddle{
+			background-color:#B3B3B3;
+			background-position:right -1173px;
+			background-repeat:no-repeat;
+		}
+		
+		#breadcrumb .crumblast{
+			background-color:#B3B3B3;
+			background-position:right -1194px;
+			background-repeat:no-repeat;
+		}
+	
+	#breadcrumb a{
+	color:#000000;
+	text-decoration:none;
+	}
+/* Termina Breadcrumb */
+
+/*Twitter icono*/
+#twitter{
+	display:block;
+	height:50px;
+	margin:0 0 10px 10px;
+	font-size:11px;
+	/*border: 1px solid #333;/**/
+}
+	#twitter div{
+	display:block;
+	float:left;
+	margin-left:0;
+	height:48px;
+	width:31px;
+	/*border: 1px solid #333;*/
+	}
+		
+		#twitter .icono{
+			/*background-color:#E8E8E8;*/
+		/*	background-position:right -1152px; /*right -1152px;*/ /*Horizontal Vertical*/
+		/*	background-position:-405px -284px;*/
+			background-position:-321px -1420px; /*Horizontal Vertical*/
+			background-repeat:no-repeat;
+			padding-left:1px;
+		}
+		
+	#twitter a{
+	color:#000000;
+	text-decoration:none;
+	}
+/*Uso:
+<div id="twitter">
+	<div class="icono master_sprite"><a title="" href="">twitter</a></div>
+</div>
+*/
+/*Fin Twitter icono*/

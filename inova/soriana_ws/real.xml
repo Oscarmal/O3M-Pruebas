@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Comprobante xmlns="http://www.sat.gob.mx/cfd/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/2 http://www.sat.gob.mx/sitio_internet/cfd/2/cfdv2.xsd" version="2.0" serie="A" folio="000000009" fecha="2010-12-21T21:06:07" sello="YO03ij7GRH8BnbSY1TbsmvZDaABk2DeiuiwzdK7nNb84gtD00TZTYmDpRayYCC1J8bR6mxAsVb1zDPewwKkxmxx6Zi1vuddNn6AMh5dOcJWdFJnZBF9G++s/fqQ+bG7FrWaQIG0JqS6rzaFhFoFuHVq9CZ41wYPjtFxOYE+R048=" noAprobacion="285862" anoAprobacion="2010" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000102345181                              " certificado="MIIEZzCCA0+gAwIBAgIUMDAwMDEwMDAwMDAxMDIzNDUxODEwDQYJKoZIhvcNAQEFBQAwggE2MTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExHzAdBgkqhkiG9w0BCQEWEGFjb2RzQHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEzARBgNVBAcMCkN1YXVodGVtb2MxMzAxBgkqhkiG9w0BCQIMJFJlc3BvbnNhYmxlOiBGZXJuYW5kbyBNYXJ0w61uZXogQ29zczAeFw0xMDEyMDkxOTI0MjhaFw0xMjEyMDgxOTI0MjhaMIIBBjE4MDYGA1UEAxMvQUxJTUVOVE9TIE5BVFVSQUxFUyBERSBUUklHTyBHRVJNSU5BRE8gU0EgREUgQ1YxODA2BgNVBCkTL0FMSU1FTlRPUyBOQVRVUkFMRVMgREUgVFJJR08gR0VSTUlOQURPIFNBIERFIENWMTgwNgYDVQQKEy9BTElNRU5UT1MgTkFUVVJBTEVTIERFIFRSSUdPIEdFUk1JTkFETyBTQSBERSBDVjElMCMGA1UELRMcQU5UMDIxMDA0Ukk3IC8gUkFTRTYwMTIzMEo1MjEeMBwGA1UEBRMVIC8gUkFTRTYwMTIzMEhOTE1MRDA4MQ8wDQYDVQQLEwZNQVRSSVowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMIaAQTYYRuQEZynG+7ZZ2gGuMrjJTlVyv+e1/4yPfXl337RfkWwloiC7U6vU3Y3Mw0G/1XwUr7CLwfoPR36NhLtYBnrjbQoxwVWkt3smFNYaovpT1vSQkToC1wBm7xDXgUGV+UcDyMWnzFWOh8h0XtR714PGjmXnLFhsE3TSrjTAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQB+DEjUZ2zS/j2QNFraiRbD3VHKcv53LDdv180EFuRBIUkEy0I+ktD9Fe5qI93KxL9ji9p/vwzlMzZBkqPUTZAfwxQyNzs2Jk+F7kzpuApXjOOMS16wQK1G5R/tEDlREdn53PYpMZ2z1etrPRsg/MiipVn5hIPyJEDXZvyAmfXnRgI8qEt/9lI+Sf/rPwUI3F6qNF8AALQ2Pzx7B8cyytZ9dMchKGXsKEUy2VmcUxXSbXOAXAV50KFkvOS9pEIEV4/gyQjB1977CBNGxNvWAK6U5LlMCc5dv6SR78fx0Fm5UAGhwczjGUj/Uxx5RxPFbLLD5v2dRLF2oovvB1bDalj5" condicionesDePago="30DIAS" subTotal="547.60" total="547.60" tipoDeComprobante="ingreso">
+	<Emisor rfc="ANT021004RI7" nombre="ALIM. NAT. DE TRIGO GERMINADO S.A. DE C.V.">
+		<DomicilioFiscal calle="GONZALITOS" noExterior="408" colonia="LAS PUENTES SECTOR 1" localidad="MONTERREY" municipio="SAN NICOLÁS DE LOS GARZA" estado="NUEVO LEON" pais="MEXICO" codigoPostal="66460"/>
+		<ExpedidoEn calle="GONZALITOS" noExterior="408" colonia="LAS PUENTES SECTOR 1" localidad="MONTERREY" municipio="SAN NICOLÁS DE LOS GARZA" estado="NUEVO LEON" pais="MEXICO" codigoPostal="66460"/>
+	</Emisor>
+	<Receptor rfc="TSO991022PB6" nombre="TIENDAS SORIANA S.A. DE C.V.">
+		<Domicilio calle="ALEJANDRO DE RODAS" noExterior="3102" colonia="CUMBRES" municipio="MONTERREY" estado="NUEVO LEON" pais="MEXICO" codigoPostal="64610"/>
+	</Receptor>
+	<Conceptos>
+		<Concepto cantidad="24" unidad="PZA" noIdentificacion="7503006908019" descripcion="Tostada de Trigo Chile y Limo" valorUnitario="13.90" importe="333.60"/>
+		<Concepto cantidad="20" unidad="PZA" noIdentificacion="7501419310023" descripcion="Tortilla de Trigo Germ 350gr" valorUnitario="10.70" importe="214.00"/>
+	</Conceptos>
+	<Impuestos totalImpuestosTrasladados="0.00">
+		<Traslados>
+			<Traslado impuesto="IVA" tasa="0.00" importe="0.00"/>
+		</Traslados>
+	</Impuestos>
+	<Addenda>
+		<DSCargaRemisionProv>
+			<Remision Id="Remision1" RowOrder="0">
+				<Proveedor>17855                              </Proveedor>
+				<Remision>A-000000009</Remision>
+				<Consecutivo>0</Consecutivo>
+				<FechaRemision>2010-12-21T00:00:00</FechaRemision>
+				<Tienda>24</Tienda>
+				<TipoMoneda>1</TipoMoneda>
+				<TipoBulto>1</TipoBulto>
+				<EntregaMercancia>1</EntregaMercancia>
+				<CumpleReqFiscales>true</CumpleReqFiscales>
+				<CantidadBultos>44</CantidadBultos>
+				<Subtotal>547.60</Subtotal>
+				<Descuentos>0.00</Descuentos>
+				<IEPS>0</IEPS>
+				<IVA>0.00</IVA>
+				<OtrosImpuestos>0</OtrosImpuestos>
+				<Total>547.60</Total>
+				<CantidadPedidos>1</CantidadPedidos>
+				<FechaEntregaMercancia>2010-10-16T00:00:00</FechaEntregaMercancia>
+				<FolioNotaEntrada>562744</FolioNotaEntrada>
+			</Remision>
+			<Pedidos Id="Pedidos1" RowOrder="1">
+				<Proveedor>17855                              </Proveedor>
+				<Remision>A-000000009</Remision>
+				<FolioPedido>562744</FolioPedido>
+				<Tienda>24</Tienda>
+				<CantidadArticulos>2</CantidadArticulos>
+				<PedidoEmitidoProveedor>SI</PedidoEmitidoProveedor>
+			</Pedidos>
+			<Articulos Id="Articulos1" RowOrder="2">
+				<Proveedor>17855                              </Proveedor>
+				<Remision>A-000000009</Remision>
+				<FolioPedido>562744</FolioPedido>
+				<Tienda>24</Tienda>
+				<Codigo>7503006908019</Codigo>
+				<CantidadUnidadCompra>24</CantidadUnidadCompra>
+				<CostoNetoUnidadCompra>13.90</CostoNetoUnidadCompra>
+				<PorcentajeIEPS>0</PorcentajeIEPS>
+				<PorcentajeIVA>0</PorcentajeIVA>
+			</Articulos>
+			<Articulos Id="Articulos2" RowOrder="3">
+				<Proveedor>17855                              </Proveedor>
+				<Remision>A-000000009</Remision>
+				<FolioPedido>562744</FolioPedido>
+				<Tienda>24</Tienda>
+				<Codigo>7501419310023</Codigo>
+				<CantidadUnidadCompra>20</CantidadUnidadCompra>
+				<CostoNetoUnidadCompra>10.70</CostoNetoUnidadCompra>
+				<PorcentajeIEPS>0</PorcentajeIEPS>
+				<PorcentajeIVA>0</PorcentajeIVA>
+			</Articulos>
+		</DSCargaRemisionProv>
+	</Addenda>
+</Comprobante>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+
+	<rss version="2.0"> 
+
+	<channel> 
+
+	<title>DOF - Diario Oficial de la Federación - Indicadores</title> 
+
+	<link>http://dof.gob.mx</link> 
+
+	<description>Diario Oficial de la Federación, Río Amazonas No. 62, Col. Cuauhtémoc, C.P. 06500, México, D.F., Secretaría de Gobernación Tel. 5093-3200, Correo electrónico: dof@segob.gob.mx.</description> 
+
+	<image> 
+
+	<url>http://dof.gob.mx/images/logo_dof.gif</url> 
+
+	<title>DOF - Diario Oficial de la Federación</title> 
+
+	<link>http://dof.gob.mx/</link> 
+
+	</image> 
+
+	<generator>DOF - Diario Oficial de la Federación</generator> 
+
+	<author>Diario Oficial de la Federación </author> 
+
+	<copyright>Copyright © 2006 DOF - Diario Oficial de la Federación</copyright> 
+
+	<language>es-mx</language> 
+
+	<ttl>60</ttl> 
+
+	<item> 
+		<title>DOLAR</title> 
+		<description>13.0938</description> 
+		<valueDate>12/09/13</valueDate>
+		<pubDate>Thu, 12 Sep 2013 00:00:00 -0500</pubDate>
+	</item> 
+	<item> 
+		<title>UDIS</title> 
+		<description>4.960267</description> 
+		<valueDate>12/09/13</valueDate>
+		<pubDate>Tue, 10 Sep 2013 00:00:00 -0500</pubDate>
+	</item> 
+	<item> 
+		<title>CCP-DOLARES</title> 
+		<description>3.58</description> 
+		<valueDate>12/09/13</valueDate>
+		<pubDate>Thu, 12 Sep 2013 00:00:00 -0500</pubDate>
+	</item> 
+	<item> 
+		<title>TIIE 28 DIAS</title> 
+		<description>4.0361%</description> 
+		<valueDate>12/09/13</valueDate>
+		<pubDate>Thu, 12 Sep 2013 00:00:00 -0500</pubDate>
+	</item> 
+	<item> 
+		<title>TIIE 91 DIAS</title> 
+		<description>4.0356%</description> 
+		<valueDate>12/09/13</valueDate>
+		<pubDate>Thu, 12 Sep 2013 00:00:00 -0500</pubDate>
+	</item> 
+	<item> 
+		<title>TIIE 182 DIAS</title> 
+		<description>4.0917%</description> 
+		<valueDate>12/09/13</valueDate>
+		<pubDate>Thu, 12 Sep 2013 00:00:00 -0500</pubDate>
+	</item> 
+</channel> 
+</rss> 

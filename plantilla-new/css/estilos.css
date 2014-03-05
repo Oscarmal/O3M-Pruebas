@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font: 80%/130% Arial, Helvetica, sans-serif;
+	color:#333;
+	background:#FFCC66;
+	margin: 0 0 0 0;	
+}
+#pagina{
+	background:#F5F5F5;
+	width:90%;
+	height:100%;
+	margin: 0 auto 0px auto;
+	position:relative;
+	clear:both;
+	z-index:1;
+}
+#cabecera{
+	background:#FFF;
+	position:relative;
+	clear:both;
+	z-index:10;
+}
+#menu{
+	position:relative;
+	clear:both;
+	z-index:11;
+	text-align:center;
+	background:#333333;
+	color:#FFFFFF;
+}
+#barra_ruta{
+	font-family: arial;
+	font-size:.8em;
+	color:#999;
+	background:#F5F5F5;
+	margin: 2px 5px 2px 2px;
+}
+#contenido{
+	position:relative;
+	clear:both;
+	height:680px;
+	padding: 10px 20px 10px 20px;
+	z-index:2;
+}
+#login{
+	position:relative;
+	clear:both;
+	color:#FFF;
+	font-weight:bold;
+	left:35%;
+	top:28%;
+	z-index:3;
+}
+#barra_fin{
+	background:#333;
+	position:relative;
+	clear:both;
+	height:5px;
+	z-index:3;
+}
+#pie{
+	color:#666666;
+	font-size:.8em;
+	line-height:110%;
+	text-align:center;
+	position:relative;
+	clear:both;
+	z-index:2;
+}
+.titulo1{
+	font-size:1.5em;
+	font-weight:bold;
+	color:#000000;
+}
+.titulo2{
+	font-size:1.1em;
+	font-weight:bold;
+	color:#000000;
+}
+.titulo3{
+	font-size:1em;
+	font-weight:bold;
+	color:#000000;
+}
+.txt_barra{
+	font-size:1em;
+	color:#999;
+	margin: 0 5px 0 5px;
+}
+.msj_rojo{
+	font-size:.9em;
+	color:#F2606A;
+	font-weight:bold;
+}
+.tit_azul{
+	font-size:.9em;
+	color:#59ACFF;
+	font-weight:bold;
+}
+
+a.link_menu:link { text-decoration: none; color:#FFF;}
+a.link_menu:visited { text-decoration: none; color:#FFF; }
+a.link_menu:hover { text-decoration: underline; color:#FFCC66; }

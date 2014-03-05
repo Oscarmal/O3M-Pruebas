@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: sans-serif, Arial, Verdana, helvetica;
+	background-color:#F4F4F4;
+	margin: 0px 0px 0px 0px;
+	background:url(../img/fondo_head2.png) bottom repeat-x;
+	background-attachment:fixed;
+}
+.titulo{
+	font-size:20px;
+	font-weight:bold;
+}
+.subtitulo{
+	font-size:16px;
+	font-weight:bold;
+}
+.menu{
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	vertical-align:middle;
+	padding: 2px 0px 0px 5px;
+}
+.datos{
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	vertical-align:middle;
+	padding: 5px 0px 0px 5px;
+}
+a.menul:link { text-decoration: none; color:#FFFFFF;}
+a.menul:visited { text-decoration: none; color:#FFFFFF; }
+a.menul:hover { text-decoration: none; color:#333; }

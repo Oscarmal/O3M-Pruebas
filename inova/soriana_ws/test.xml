@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd " version="3.2" serie="MDISD" folio="1038" fecha="2013-06-30T17:56:52" sello="Z0/XECSX5dEE9GdU/fNkoZSpv3F9uYLs+jm4LphH5u9EGHdYz6ICpElmvXiPScAWZg4ASOe0I3xIVUqPAMmS2VTLCLlC4D6yJrJ8lRGEjwxYwpOWzUmSSU90Wm0pzkVfiFWw73uFTtNLOPDsQGhgOijdHGH7Qu9YFw+yZiBFo6k=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000203465956" certificado="MIIErzCCA5egAwIBAgIUMDAwMDEwMDAwMDAyMDM0NjU5NTYwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDQxNTIwNTE1OFoXDTE3MDQxNTIwNTE1OFowgfAxKDAmBgNVBAMTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxKDAmBgNVBCkTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxKDAmBgNVBAoTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxJTAjBgNVBC0THENNVTA2MDExOVVJNyAvIEFFU0o2NDAxMDc0NjYxHjAcBgNVBAUTFSAvIEFFU0o2NDAxMDdIREZMUlYwMzEpMCcGA1UECxMgQ09SUE9SQVRJVk8gTVVGQVIgUyBERSBSTCBERSBDLlYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN+A70SLEA4EvWB53SGFY1roJh3yBB35flcLAgIebCtDUMfIhIY19pTwK4aube1aiRKA1hJze+M21B0qB0h6/LFgoaERxiLArv0SSqHp8MofVNkW9KZ0MXpA/ndd8DWC25j8BdFUPdW7Y+ZNj72qzn/JxzwZfcd6YteeTeUw9Tr1AgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCXNQSun6hit9LFXx2ymlcPJ5DLDCc4iRKym3dsn7N2lotaKSb0b8FVHISSoGBs3ygCywp2nG6Bz9tYO+5x2g04kofAyGrhmLyU296UhqdVcACUASRU0rf5y/3aKxFhSBtIifZSqpzwfQzEAnaYYzBPshYdpvJSJsn8g3R1+tHOwViPWYcxsAvv/ttW85OUjyIMWvsLVGrlCLVDY8UMlOjWGiOT/+vOofdx2M9oXkL3mj5PnlCpkc+adLussnX4BFkmfjzO2Cos/I2z79jAWKhQs11wn/sNQ/gUtYkE6a66W/ta5YRT/KEbRKM23mv5cSqwIPcktj0y7XGYmp/PtjfM" condicionesDePago="CONTADO" subTotal="3306.64" descuento="0.00" TipoCambio="0.00" Moneda="MXP" total="3778.20" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRONICA" LugarExpedicion="MEXICO, Nuevo Leon" NumCtaPago="1243">
+  <cfdi:Emisor rfc="CMU060119UI7" nombre="CORPORATIVO MUFAR, S DE R.L. DE C.V.">
+    <cfdi:DomicilioFiscal calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:ExpedidoEn calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="TSO911022PB6" nombre="TIENDAS SORIANA, S.A. DE C.V.(1)">
+    <cfdi:Domicilio calle="ALEJANDRO RODAS" noExterior="3102" colonia="CUMBRES 8o  SECTOR" referencia="5513" municipio="MONTERREY" estado="Nuevo Leon" pais="MEXICO" codigoPostal="64610" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="810890000154" descripcion="810890000154-DR HO BELT GDE-EXGDE" valorUnitario="1809.83" importe="1809.83">
+      <cfdi:InformacionAduanera numero="234324" fecha="2013-03-13" aduana="AEROPUERTO" />
+    </cfdi:Concepto>
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502233308562" descripcion="400001492-IN-STYLER" valorUnitario="1137.41" importe="1137.41">
+      <cfdi:InformacionAduanera numero="324523" fecha="2013-04-23" aduana="LAREDO" />
+    </cfdi:Concepto>
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7503014009050" descripcion="400001178-COLAGEINA GOLD" valorUnitario="359.40" importe="359.40" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="471.56">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="471.56" />
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento><tfd:TimbreFiscalDigital version="1.0" UUID="71b3e326-3a96-47ae-8e80-ac5b4286c53c" FechaTimbrado="2013-07-01T10:19:47" selloCFD="Z0/XECSX5dEE9GdU/fNkoZSpv3F9uYLs+jm4LphH5u9EGHdYz6ICpElmvXiPScAWZg4ASOe0I3xIVUqPAMmS2VTLCLlC4D6yJrJ8lRGEjwxYwpOWzUmSSU90Wm0pzkVfiFWw73uFTtNLOPDsQGhgOijdHGH7Qu9YFw+yZiBFo6k=" noCertificadoSAT="20001000000100005761" selloSAT="Kv4zBUZk1XoyF+iD3YDQasoK1Q8T2BOtin5pb/n9PrwkE3v32hJ3VQEgYkrEVEJQzjaKi+HGA+JXhumBg5+b5KmACKKpfWDnrGhNEuNLTlsv35cN5bOyeMwm7m2PNJ/mKzQLhSx6CulotvlaqjVZLlPe4a4Jw0FVQ5FkmwS5fUU=" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" /></cfdi:Complemento>
+  <cfdi:Addenda>
+	<DSCargaRemisionProv>
+<Remision Id="Remision1" RowOrder="0">
+			<Proveedor>324590</Proveedor>
+			<Remision>MDISD-1038</Remision>
+			<Consecutivo>0</Consecutivo>
+			<FechaRemision>2013-06-30T00:00:00</FechaRemision>
+			<Tienda>TULTITLAN SECOS</Tienda>
+			<TipoMoneda>1</TipoMoneda>
+			<TipoBulto>1</TipoBulto>
+<EntregaMercancia>1</EntregaMercancia>
+			<CumpleReqFiscales>true</CumpleReqFiscales>
+			<CantidadBultos>1</CantidadBultos>
+			<Subtotal>3306.64</Subtotal>
+			<Descuentos>0.00</Descuentos>
+			<IEPS>0.00</IEPS>
+			<IVA>471.56</IVA>
+			<IVA>0.00</IVA>
+			<OtrosImpuestos>0</OtrosImpuestos>
+			<Total>3778.20</Total>
+			<CantidadPedidos>1</CantidadPedidos>
+			<FechaEntregaMercancia>2013-06-19T00:00:00</FechaEntregaMercancia>
+		</Remision>
+<Pedidos Id="Pedidos1" RowOrder="1">
+			<Proveedor>324590</Proveedor>
+			<Remision>MDISD-1038</Remision>
+			<FolioPedido>123456</FolioPedido>
+			<Tienda>TULTITLAN SECOS</Tienda>
+			<CantidadArticulos>3</CantidadArticulos>
+		</Pedidos>
+<Articulos Id="Articulos1" RowOrder="2">
+			<Proveedor>324590</Proveedor>
+			<Remision>MDISD-1038</Remision>
+			<FolioPedido>123456</FolioPedido>
+			<Tienda>TULTITLAN SECOS</Tienda>
+			<Codigo>810890000154</Codigo>
+			<CantidadUnidadCompra>1.00</CantidadUnidadCompra>
+			<CostoNetoUnidadCompra>1809.83</CostoNetoUnidadCompra>
+			<PorcentajeIEPS>0.00</PorcentajeIEPS>
+			<PorcentajeIVA>16.00</PorcentajeIVA>
+		</Articulos>
+<Articulos Id="Articulos2" RowOrder="3">
+			<Proveedor>324590</Proveedor>
+			<Remision>MDISD-1038</Remision>
+			<FolioPedido>123456</FolioPedido>
+			<Tienda>TULTITLAN SECOS</Tienda>
+			<Codigo>7502233308562</Codigo>
+			<CantidadUnidadCompra>1.00</CantidadUnidadCompra>
+			<CostoNetoUnidadCompra>1137.41</CostoNetoUnidadCompra>
+			<PorcentajeIEPS>0.00</PorcentajeIEPS>
+			<PorcentajeIVA>16.00</PorcentajeIVA>
+		</Articulos>
+<Articulos Id="Articulos3" RowOrder="4">
+			<Proveedor>324590</Proveedor>
+			<Remision>MDISD-1038</Remision>
+			<FolioPedido>123456</FolioPedido>
+			<Tienda>TULTITLAN SECOS</Tienda>
+			<Codigo>7503014009050</Codigo>
+			<CantidadUnidadCompra>1.00</CantidadUnidadCompra>
+			<CostoNetoUnidadCompra>359.40</CostoNetoUnidadCompra>
+			<PorcentajeIEPS>0.00</PorcentajeIEPS>
+			<PorcentajeIVA>0.00</PorcentajeIVA>
+		</Articulos>
+	</DSCargaRemisionProv>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

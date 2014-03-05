@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd " version="3.2" serie="MDIS" folio="11538" fecha="2013-04-08T12:32:04" sello="lnOsCxWDsZ6sKcFtWZUheVEtHo/nweNJIFpWEh5aI6Rx2pJJKmvjsQ5Z5szt4SJJSUoklsWOV36WWz65qK5k3Jed48K7GPfeOyP+ISYcoHvrO2ZAQciy3zqTylOp0VeufHmMxbio5/dlV/zgLz7a58rkmuUceNxNx11/QBxo1zk=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000103305554" certificado="MIIEPjCCAyagAwIBAgIUMDAwMDEwMDAwMDAxMDMzMDU1NTQwDQYJKoZIhvcNAQEFBQAwggE2MTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExHzAdBgkqhkiG9w0BCQEWEGFjb2RzQHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEzARBgNVBAcMCkN1YXVodGVtb2MxMzAxBgkqhkiG9w0BCQIMJFJlc3BvbnNhYmxlOiBGZXJuYW5kbyBNYXJ0w61uZXogQ29zczAeFw0xMTA0MTQwMTA2MDZaFw0xMzA0MTMwMTA2MDZaMIHeMSgwJgYDVQQDEx9DT1JQT1JBVElWTyBNVUZBUiBTIERFIFJMIERFIENWMSgwJgYDVQQpEx9DT1JQT1JBVElWTyBNVUZBUiBTIERFIFJMIERFIENWMSgwJgYDVQQKEx9DT1JQT1JBVElWTyBNVUZBUiBTIERFIFJMIERFIENWMSUwIwYDVQQtExxDTVUwNjAxMTlVSTcgLyBNT1BBNjgwMzE2RVFBMR4wHAYDVQQFExUgLyBNT1BBNjgwMzE2SERGTlJMMDExFzAVBgNVBAsTDk1PTlRFUlJFWSBOLkwuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqz4OU0JOfmb7RHFjDvVrWNzXbS1A2KvnBGf8ndPYBgfhaooGuXZzPrLWSaY+EiODmj4uvpbIUyj6XIDTeZoqull23fE1WS/vkC3WhMDEsPs8TBlNQf9jfwh8SCi6UjHlOAwgkku6L9FYftOGZyVyVM60n0X8C25YtSFbU55k/1QIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAgcWfC6bn55tWof6foHAN1YxQu4QFljWFE9jdUGCNVUankJNCP04ax/qnllYNhi3SA/dCyQNyDZ29qFT6mXCQ0ljzfC2qHQDIWrS+3CV49slraRHtbpZ1NhOMY0FozqXG8GtpusWVPHdMgud56PO4X4oonXJV9+O0LybijK8u/3HPD7C0z3XqstN0+bzpnvjS0BDMOA4iACk0was9V4hjf9MN4EDsQ01MJSzEcZIBcCU1P6vKKGFAjPoocdEqigR9OpUuhmjzPOWxw3ZJ0LM8CXWf9+JqH93tgG3rjLcq3DqweBhUkz8JtNDoLjYo2EAHj6RCGsiWcvbHB68Hqsa26g==" condicionesDePago="CREDITO 30 DIAS" subTotal="1464.52" descuento="0.00" TipoCambio="0.00" Moneda="MXP" total="1616.17" tipoDeComprobante="ingreso" metodoDePago="DEPOSITO REFERENCIADO" LugarExpedicion="MEXICO, Nuevo Leon" NumCtaPago="784548">
+  <cfdi:Emisor rfc="CMU060119UI7" nombre="CORPORATIVO MUFAR, S DE R.L. DE C.V.">
+    <cfdi:DomicilioFiscal calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:ExpedidoEn calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="PRM050505FF9" nombre="PROMOLIGISTICS">
+    <cfdi:Domicilio calle="AV. CONSTITUYENTES" noExterior="908" colonia="LOMAS ALTAS" municipio="MIGUEL HIDALGO" estado="Distrito Federal" pais="MEXICO" codigoPostal="11950" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="50.00" unidad="PZA" descripcion="400001052-IN-STYLER" valorUnitario="18.96" importe="947.80" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" descripcion="400001070-MIRACLE BLADE WORLD CLASS" valorUnitario="516.72" importe="516.72" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="151.65">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="151.65" />
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento><tfd:TimbreFiscalDigital version="1.0" UUID="531a6793-d8ec-4798-85ca-a2c7da590c13" FechaTimbrado="2013-04-08T16:38:56" selloCFD="lnOsCxWDsZ6sKcFtWZUheVEtHo/nweNJIFpWEh5aI6Rx2pJJKmvjsQ5Z5szt4SJJSUoklsWOV36WWz65qK5k3Jed48K7GPfeOyP+ISYcoHvrO2ZAQciy3zqTylOp0VeufHmMxbio5/dlV/zgLz7a58rkmuUceNxNx11/QBxo1zk=" noCertificadoSAT="30001000000100000801" selloSAT="fNnLtLBO6+mNCXT9loGHskJLGO6ObGY35xy3Um2hj2C1dg/m/fcG4eEvkLvq1ucxWoPv06a2dGSwf0OEqtvNGvOibCrldtUYw7rAwI8vTXG85T8EDQuwrlHNEuUeKEuRWiQUi0TnCObECmqImXexatZu9webRD8nKYGNPQdN61A=" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" /></cfdi:Complemento><cfdi:Addenda xmlns:ecfd="http://www.southconsulting.com/schemas/strict" xsi:schemaLocation="http://www.southconsulting.com/schemas/strict http://www.southconsulting.com/schemas/strict/ecfd.xsd">
+    <ecfd:ECFD version="1.0">
+      <ecfd:Documento ID="T33MDIS11538">
+        <ecfd:Encabezado>
+          <ecfd:IdDoc>
+            <ecfd:NroAprob>1</ecfd:NroAprob>
+            <ecfd:AnoAprob>1900</ecfd:AnoAprob>
+            <ecfd:Tipo>33</ecfd:Tipo>
+            <ecfd:Serie>MDIS</ecfd:Serie>
+            <ecfd:Folio>11538</ecfd:Folio>
+            <ecfd:Estado>ORIGINAL</ecfd:Estado>
+            <ecfd:NumeroInterno>19</ecfd:NumeroInterno>
+            <ecfd:FechaEmis>2013-04-08T12:32:04</ecfd:FechaEmis>
+            <ecfd:FormaPago>PAGO EN UNA SOLA EXHIBICION</ecfd:FormaPago>
+            <ecfd:MedioPago>DEPOSITO REFERENCIADO</ecfd:MedioPago>
+            <ecfd:LugarExpedicion>MEXICO, Nuevo Leon</ecfd:LugarExpedicion>
+            <ecfd:NumCtaPago>784548</ecfd:NumCtaPago>
+            <ecfd:CondPago>CREDITO 30 DIAS</ecfd:CondPago>
+            <ecfd:TermPagoCdg>1</ecfd:TermPagoCdg>
+            <ecfd:TermPagoDias>30</ecfd:TermPagoDias>
+          </ecfd:IdDoc>
+          <ecfd:ExEmisor>
+            <ecfd:RFCEmisor>CMU060119UI7</ecfd:RFCEmisor>
+            <ecfd:NmbEmisor>CORPORATIVO MUFAR, S DE R.L. DE C.V.</ecfd:NmbEmisor>
+            <ecfd:DomFiscal>
+              <ecfd:Calle>Avenida Lazaro Cardenas</ecfd:Calle>
+              <ecfd:NroExterior>1007-A</ecfd:NroExterior>
+              <ecfd:NroInterior>Planta Baja</ecfd:NroInterior>
+              <ecfd:Colonia>Residencial Santa Barbara</ecfd:Colonia>
+              <ecfd:Municipio>Nuevo Leon</ecfd:Municipio>
+              <ecfd:Estado>Nuevo Leon</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>66266</ecfd:CodigoPostal>
+            </ecfd:DomFiscal>
+            <ecfd:LugarExped>
+              <ecfd:Calle>Avenida Lazaro Cardenas</ecfd:Calle>
+              <ecfd:NroExterior>1007-A</ecfd:NroExterior>
+              <ecfd:NroInterior>Planta Baja</ecfd:NroInterior>
+              <ecfd:Colonia>Residencial Santa Barbara</ecfd:Colonia>
+              <ecfd:Municipio>Nuevo Leon</ecfd:Municipio>
+              <ecfd:Estado>Nuevo Leon</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>66266</ecfd:CodigoPostal>
+            </ecfd:LugarExped>
+          </ecfd:ExEmisor>
+          <ecfd:ExReceptor>
+            <ecfd:RFCRecep>PRM050505FF9</ecfd:RFCRecep>
+            <ecfd:NmbRecep>PROMOLIGISTICS</ecfd:NmbRecep>
+            <ecfd:DomFiscalRcp>
+              <ecfd:Calle>AV. CONSTITUYENTES</ecfd:Calle>
+              <ecfd:NroExterior>908</ecfd:NroExterior>
+              <ecfd:Colonia>LOMAS ALTAS</ecfd:Colonia>
+              <ecfd:Municipio>MIGUEL HIDALGO</ecfd:Municipio>
+              <ecfd:Estado>Distrito Federal</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>11950</ecfd:CodigoPostal>
+            </ecfd:DomFiscalRcp>
+            <ecfd:LugarRecep>
+              <ecfd:Calle>AV. CONSTITUYENTES</ecfd:Calle>
+              <ecfd:NroExterior>908</ecfd:NroExterior>
+              <ecfd:Colonia>LOMAS ALTAS</ecfd:Colonia>
+              <ecfd:Municipio>MIGUEL HIDALGO</ecfd:Municipio>
+              <ecfd:Estado>Distrito Federal</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>11950</ecfd:CodigoPostal>
+            </ecfd:LugarRecep>
+          </ecfd:ExReceptor>
+          <ecfd:Totales>
+            <ecfd:Moneda>MXP</ecfd:Moneda>
+            <ecfd:FctConv>0.00</ecfd:FctConv>
+            <ecfd:SubTotal>1464.52</ecfd:SubTotal>
+            <ecfd:MntDcto>0.00</ecfd:MntDcto>
+            <ecfd:MntBase>1464.52</ecfd:MntBase>
+            <ecfd:MntImp>151.65</ecfd:MntImp>
+            <ecfd:VlrPagar>1616.17</ecfd:VlrPagar>
+            <ecfd:VlrPalabras>UN MIL SEISCIENTOS DIECISEIS PESOS 17/100 M.N</ecfd:VlrPalabras>
+          </ecfd:Totales>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>151.65</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>0.00</ecfd:TasaImp>
+            <ecfd:MontoImp>0.00</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+        </ecfd:Encabezado>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>1</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001052-IN-STYLER</ecfd:DscItem>
+          <ecfd:QtyItem>50.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>18.96</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>151.65</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>947.80</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>2</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001070-MIRACLE BLADE WORLD CLASS</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>516.72</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>0.00</ecfd:TasaImp>
+            <ecfd:MontoImp>0.00</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>516.72</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>1</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>ON</ecfd:TpoDocRef>
+          <ecfd:FolioRef>100116</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>2</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>QD</ecfd:TpoDocRef>
+          <ecfd:FolioRef>323315</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:TimeStamp>2013-04-08T16:31:58</ecfd:TimeStamp>
+      </ecfd:Documento>
+      <ecfd:Personalizados>
+        <ecfd:campoString name="IdArea" />
+        <ecfd:campoString name="FolioPedido" />
+        <ecfd:campoString name="FechaPedido" />
+        <ecfd:campoString name="ElaboradoPor" />
+        <ecfd:campoString name="ViaEmbarque" />
+        <ecfd:campoString name="NumEmbarque" />
+        <ecfd:campoString name="NumEmbarqueInt" />
+        <ecfd:campoString name="EmRefBanBanca" />
+        <ecfd:campoString name="EmRefBanTitular" />
+        <ecfd:campoString name="EmRefBanCuenta" />
+        <ecfd:campoString name="EmRefBanCLABE" />
+        <ecfd:campoString name="EmRefBanConvenio" />
+        <ecfd:campoString name="EmRepLegNombre" />
+        <ecfd:campoString name="EmRepLegRFC" />
+        <ecfd:campoString name="RecRepLegNombre" />
+        <ecfd:campoString name="RecRepLegRFC" />
+        <ecfd:campoString name="RecRefBanRef" />
+        <ecfd:campoString name="RecEmailDist" />
+        <ecfd:campoString name="EmURL" />
+        <ecfd:campoString name="COD_CLP_BY">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_II">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_SU">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_ST">9</ecfd:campoString>
+        <ecfd:campoString name="CLP_SU" />
+        <ecfd:campoString name="CLP_BY" />
+        <ecfd:campoString name="CLP_II" />
+        <ecfd:campoString name="CLP_ST" />
+        <ecfd:campoString name="RLEGAL" />
+        <ecfd:campoString name="SenderIDGeneric" />
+        <ecfd:campoString name="SenderIDCorvi" />
+        <ecfd:campoString name="SI_ZZZ">UN MIL SEISCIENTOS DIECISEIS PESOS 17/100 M.N</ecfd:campoString>
+        <ecfd:campoString name="pProveedor" />
+        <ecfd:campoString name="pCURP" />
+        <ecfd:campoString name="pCliente" />
+        <ecfd:campoString name="EmMarca" />
+        <ecfd:campoString name="Addendas1" />
+        <ecfd:campoString name="Addendas2" />
+        <ecfd:campoString name="Addendas3" />
+        <ecfd:campoString name="Addendas4" />
+        <ecfd:campoString name="Addendas5" />
+        <ecfd:campoString name="Addendas6" />
+        <ecfd:campoString name="TipoBulto">1</ecfd:campoString>
+        <ecfd:campoString name="CantidadBultos" />
+        <ecfd:campoString name="pNmbSucursal" />
+        <ecfd:campoString name="Folio">11538</ecfd:campoString>
+        <ecfd:campoString name="MontoImp1">151.65</ecfd:campoString>
+        <ecfd:campoString name="MontoImp2" />
+        <ecfd:campoString name="MontoImp3">0.00</ecfd:campoString>
+        <ecfd:campoString name="MontoImp4" />
+        <ecfd:campoString name="pPers03">oc: 4845446, 545156, 124564</ecfd:campoString>
+        <ecfd:campoString name="pPers04">8845458</ecfd:campoString>
+        <ecfd:campoString name="pPers05" />
+        <ecfd:campoString name="pPers06" />
+        <ecfd:campoString name="pPers07" />
+        <ecfd:campoString name="pPers08" />
+        <ecfd:campoString name="pPers09" />
+        <ecfd:campoString name="pPers10" />
+        <ecfd:campoString name="pPers11" />
+        <ecfd:campoString name="pPers12" />
+        <ecfd:campoString name="FolioRefON">100116</ecfd:campoString>
+        <ecfd:campoString name="FolioRefDQ">323315</ecfd:campoString>
+        <ecfd:campoString name="FechaRefON" />
+        <ecfd:campoString name="FechaRefDQ" />
+        <ecfd:campoString name="RegimenFiscal">REGIMEN GENERAL DE LEY PERSONAS MORALES</ecfd:campoString>
+        <ecfd:campoString name="CuentaDePago">784548</ecfd:campoString>
+        <ecfd:campoString name="LugarDeExpedicion">MEXICO, Nuevo Leon</ecfd:campoString>
+      </ecfd:Personalizados>
+    </ecfd:ECFD>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

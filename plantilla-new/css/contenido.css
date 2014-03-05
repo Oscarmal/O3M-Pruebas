@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font: 80%/130% Arial, Helvetica, sans-serif;
+	color:#333;
+	/*background:#F5F5F5;*/
+	background:#FFFFFF;
+	margin: 0 0 0 0;	
+}
+.msj_rojo{
+	font-size:.9em;
+	color:#F2606A;
+	font-weight:bold;
+}
+.msj_azul{
+	font-size:.9em;
+	color:#59ACFF;
+	font-weight:bold;
+}
+.txt_gral{
+	font: 80%/130% Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+a.link_menu:link { text-decoration: none; color:#FFF;}
+a.link_menu:visited { text-decoration: none; color:#FFF; }
+a.link_menu:hover { text-decoration: underline; color:#FFCC66; }

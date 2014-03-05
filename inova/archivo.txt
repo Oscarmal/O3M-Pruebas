@@ -1,0 +1,8 @@
+City,State,Zip,Caller Home Phone Number,Call Code,Main Offer - Kit of 3 Sleggins - $19.95x3+$9.95,Upsell,Upsell - FREE SHIPPING W/1 PAY,Upsell,Upsell,RUSH - $4.95,Hit/Order Date,Hit/Order Time,Product Code,Order Amoun,Upsell,Upsell,Upsell,Upsell,Upsell,Upsell,Upsell 13
+Ciudad,CA-California,12155,544****,32,0,0,1,1,1,1,2013-03-28,19:06:11,SLEGW,132.76,0,0,0,0,0,0,0
+City,FL-Florida,33172,786*******,32,0,0,1,0,0,1,2013-03-28,19:06:45,SLEGW,74.91,0,0,0,0,0,0,0
+miami,FL-Florida,03440,500*****,32,0,0,1,0,0,0,2013-03-28,19:07:42,SLEGW,70.03,0,0,0,0,0,0,0
+miami,GA-Georgia,04380,500*****,32,0,0,1,1,0,1,2013-03-28,19:10:10,SLEGW,94.86,0,0,0,0,0,0,0
+bla bla ba,ID-Idaho,04360,568*******,32,0,0,1,1,1,0,2013-03-28,19:13:14,SLEGW,127.81,0,0,0,0,0,0,0
+Ciudad,IN-Indiana,54548,545***,32,0,0,1,0,0,1,2013-03-28,20:04:10,SLEGW,74.91,0,0,0,0,0,0,0
+Miami,FL-Florida,33172,786*******,32,0,0,1,1,1,1,2013-03-28,20:46:34,SLEGW,132.83,0,0,0,0,0,0,0

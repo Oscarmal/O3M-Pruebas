@@ -1,0 +1,14 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ajax</title>
+<head><script type="text/javascript" src="src/inc.ajax.js"></script></head> 
+<body>
+<p>Copiar los archivos de un directorio local a un directorio en el Servidor Web.</p>
+<form name="f_ruta" method="post" action="">
+Copiar de: <input name="origen" id="origen" type="text" value="D:\Compartida\"> 
+Pegar en: <input name="destino" id="destino" type="text" value="repositorio/">
+<input name="b_ruta" id="b_ruta" type="button" value="Copiar Archivos" onClick="fajax('contenido','copia.php',1,f_ruta.origen.value+'|'+f_ruta.destino.value+'|','Copiando, por favor espere...')">
+</form>
+<div id="contenido"></div>
+</body>
+</html> 

@@ -1,0 +1,55 @@
+<!-- 
+--	Nombre: 		Implementación de AJAX 
+--	Descripción:	Pide un valor numérico del 1 al 30, ejecuta un código PHP
+--					en otro archivo, y devuelve e imprime un nombre sin necesidad recargar la página.
+--	Dependencia:	ajax.php
+--	Autor:			Oscar Maldonado
+--	Fecha:			21-Sep-2011
+-->
+<html>
+<head>
+<script type="text/javascript">
+function showHint(str)
+{
+// Declara variable XMLHttpRequest 
+ 
+  /* opción 1 */
+  var xmlhttp;
+  try{xmlhttp=new ActiveXObject("Msxml2.XMLHTTP");}
+  catch(e){try{xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");}
+  catch(E){if(!xmlhttp && typeof XMLHttpRequest!='undefined') 
+  xmlhttp=new XMLHttpRequest();}}
+  
+  /* opción 2 */
+  //var xmlhttp;
+  //if (window.XMLHttpRequest) {xmlhttp=new XMLHttpRequest();}/* IE7+, Firefox, Chrome, Opera, Safari */
+  //else {xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");}/* IE6, IE5 */
+
+// Verifica valor vacío  
+  if (str.length==0){
+  	document.getElementById("txtHint").innerHTML="";
+  	return;
+  }
+  
+// Crea función para imprimir resultados en la DIV indicada por getElementById()
+  xmlhttp.onreadystatechange=function(){
+  	if (xmlhttp.readyState==4 && xmlhttp.status==200){
+    	document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+    }
+  }
+// Ejecuta función y Regresa los resultados
+  xmlhttp.open("POST","ajax.php?q="+str,true);
+  xmlhttp.send(null);
+}
+</script>
+</head> 
+<body>
+
+<h3>Ingrese un número del 1 al 30:</h3>
+<form> 
+No.: <input type="text" id="txt1" size="5" maxlength="2" onKeyUp="showHint(this.value)"/> <!-- Llama función -->
+</form>
+<p>Nombre: <span id="txtHint"></span></p>	<!-- Importante definir ID -->
+
+</body>
+</html> 

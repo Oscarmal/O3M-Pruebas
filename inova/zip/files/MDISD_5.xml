@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd " version="3.2" serie="MDISD" folio="5" fecha="2013-05-17T22:32:15" sello="1cDt+5vEOfT/zjUZNNZfNIu5AMR/jHNbz8DUlu/7F/kAGK0/OENE9kSz+OxjmMxtF75D+45ARHnGr62aa4tn7tzkEdY/0Zwg6A+FiBN0D6y8cVKEvz4EwwvfK3ULEHrtPGndq+JI09a+g9ZcEy3zAqj8IZJib5ylPsiQ85aLaXM=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000203465956" certificado="MIIErzCCA5egAwIBAgIUMDAwMDEwMDAwMDAyMDM0NjU5NTYwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDQxNTIwNTE1OFoXDTE3MDQxNTIwNTE1OFowgfAxKDAmBgNVBAMTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxKDAmBgNVBCkTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxKDAmBgNVBAoTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxJTAjBgNVBC0THENNVTA2MDExOVVJNyAvIEFFU0o2NDAxMDc0NjYxHjAcBgNVBAUTFSAvIEFFU0o2NDAxMDdIREZMUlYwMzEpMCcGA1UECxMgQ09SUE9SQVRJVk8gTVVGQVIgUyBERSBSTCBERSBDLlYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN+A70SLEA4EvWB53SGFY1roJh3yBB35flcLAgIebCtDUMfIhIY19pTwK4aube1aiRKA1hJze+M21B0qB0h6/LFgoaERxiLArv0SSqHp8MofVNkW9KZ0MXpA/ndd8DWC25j8BdFUPdW7Y+ZNj72qzn/JxzwZfcd6YteeTeUw9Tr1AgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCXNQSun6hit9LFXx2ymlcPJ5DLDCc4iRKym3dsn7N2lotaKSb0b8FVHISSoGBs3ygCywp2nG6Bz9tYO+5x2g04kofAyGrhmLyU296UhqdVcACUASRU0rf5y/3aKxFhSBtIifZSqpzwfQzEAnaYYzBPshYdpvJSJsn8g3R1+tHOwViPWYcxsAvv/ttW85OUjyIMWvsLVGrlCLVDY8UMlOjWGiOT/+vOofdx2M9oXkL3mj5PnlCpkc+adLussnX4BFkmfjzO2Cos/I2z79jAWKhQs11wn/sNQ/gUtYkE6a66W/ta5YRT/KEbRKM23mv5cSqwIPcktj0y7XGYmp/PtjfM" condicionesDePago="CREDITO 45 DIAS" subTotal="2407.98" descuento="0.00" TipoCambio="0,00" Moneda="MXP" total="2407.98" tipoDeComprobante="ingreso" metodoDePago="Deposit" LugarExpedicion="MEXICO, Nuevo Leon" NumCtaPago="NO IDENTIFICADO">
+  <cfdi:Emisor rfc="CMU060119UI7" nombre="CORPORATIVO MUFAR, S DE R.L. DE C.V.">
+    <cfdi:DomicilioFiscal calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:ExpedidoEn calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="SHE190630V37" nombre="SANBORN HERMANOS S.A.">
+    <cfdi:Domicilio calle="LAGO ZURICH" noExterior="245" noInterior="EDIFICIO PRESA FALCO" colonia="GRANADA AMPLIACION" municipio="MIGUEL HIDALGO" estado="Distrito Federal" pais="MEXICO" codigoPostal="11529" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="6.00" unidad="PZA" noIdentificacion="7503014009050" descripcion="400001178-COLAGEINA GOLD" valorUnitario="401.33" importe="2407.98" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="0.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento><tfd:TimbreFiscalDigital version="1.0" UUID="3c3b8864-9f22-4621-8043-adb2f7235a1a" FechaTimbrado="2013-05-17T16:32:42" selloCFD="1cDt+5vEOfT/zjUZNNZfNIu5AMR/jHNbz8DUlu/7F/kAGK0/OENE9kSz+OxjmMxtF75D+45ARHnGr62aa4tn7tzkEdY/0Zwg6A+FiBN0D6y8cVKEvz4EwwvfK3ULEHrtPGndq+JI09a+g9ZcEy3zAqj8IZJib5ylPsiQ85aLaXM=" noCertificadoSAT="00001000000103678909" selloSAT="Q83SINaVJdPjZ/pI4ku/LQfbJHUsIzk521aX/YY+3571gu8Bp4nYEKEisNhHrYDJiWTgbERPcPSlb6eQq3YMgWSc4Ob7wS2wNqH/aq9F4gBV3nhALVpjDqmqpwVpU6zMdMigAYKVHKgWfRM+Ut38Ygl1bJcwOoSwRWO3rn5DmdM=" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" /></cfdi:Complemento><cfdi:Addenda xmlns:ecfd="http://www.southconsulting.com/schemas/strict" xsi:schemaLocation="http://www.southconsulting.com/schemas/strict http://www.southconsulting.com/schemas/strict/ecfd.xsd">
+    <ecfd:ECFD version="1.0">
+      <ecfd:Documento ID="T33MDISD5">
+        <ecfd:Encabezado>
+          <ecfd:IdDoc>
+            <ecfd:NroAprob>1</ecfd:NroAprob>
+            <ecfd:AnoAprob>1900</ecfd:AnoAprob>
+            <ecfd:Tipo>33</ecfd:Tipo>
+            <ecfd:Serie>MDISD</ecfd:Serie>
+            <ecfd:Folio>5</ecfd:Folio>
+            <ecfd:Estado>ORIGINAL</ecfd:Estado>
+            <ecfd:NumeroInterno>10</ecfd:NumeroInterno>
+            <ecfd:FechaEmis>2013-05-17T22:32:15</ecfd:FechaEmis>
+            <ecfd:FormaPago>PAGO EN UNA SOLA EXHIBICION</ecfd:FormaPago>
+            <ecfd:MedioPago>Deposit</ecfd:MedioPago>
+            <ecfd:LugarExpedicion>MEXICO, Nuevo Leon</ecfd:LugarExpedicion>
+            <ecfd:NumCtaPago>NO IDENTIFICADO</ecfd:NumCtaPago>
+            <ecfd:CondPago>CREDITO 45 DIAS</ecfd:CondPago>
+            <ecfd:TermPagoCdg>1</ecfd:TermPagoCdg>
+            <ecfd:TermPagoDias>45</ecfd:TermPagoDias>
+          </ecfd:IdDoc>
+          <ecfd:ExEmisor>
+            <ecfd:RFCEmisor>CMU060119UI7</ecfd:RFCEmisor>
+            <ecfd:NmbEmisor>CORPORATIVO MUFAR, S DE R.L. DE C.V.</ecfd:NmbEmisor>
+            <ecfd:CdgGLNEmisor>7504024371007</ecfd:CdgGLNEmisor>
+            <ecfd:CodigoExEmisor>
+              <ecfd:TpoCdgIntEmisor>INT</ecfd:TpoCdgIntEmisor>
+              <ecfd:CdgIntEmisor>612541</ecfd:CdgIntEmisor>
+            </ecfd:CodigoExEmisor>
+            <ecfd:DomFiscal>
+              <ecfd:Calle>Avenida Lazaro Cardenas</ecfd:Calle>
+              <ecfd:NroExterior>1007-A</ecfd:NroExterior>
+              <ecfd:NroInterior>Planta Baja</ecfd:NroInterior>
+              <ecfd:Colonia>Residencial Santa Barbara</ecfd:Colonia>
+              <ecfd:Municipio>Nuevo Leon</ecfd:Municipio>
+              <ecfd:Estado>Nuevo Leon</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>66266</ecfd:CodigoPostal>
+              <ecfd:GLN>7504024371007</ecfd:GLN>
+            </ecfd:DomFiscal>
+            <ecfd:LugarExped>
+              <ecfd:Calle>Avenida Lazaro Cardenas</ecfd:Calle>
+              <ecfd:NroExterior>1007-A</ecfd:NroExterior>
+              <ecfd:NroInterior>Planta Baja</ecfd:NroInterior>
+              <ecfd:Colonia>Residencial Santa Barbara</ecfd:Colonia>
+              <ecfd:Municipio>Nuevo Leon</ecfd:Municipio>
+              <ecfd:Estado>Nuevo Leon</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>66266</ecfd:CodigoPostal>
+              <ecfd:GLN>7504024371007</ecfd:GLN>
+            </ecfd:LugarExped>
+          </ecfd:ExEmisor>
+          <ecfd:ExReceptor>
+            <ecfd:RFCRecep>SHE190630V37</ecfd:RFCRecep>
+            <ecfd:NmbRecep>SANBORN HERMANOS S.A.</ecfd:NmbRecep>
+            <ecfd:DomFiscalRcp>
+              <ecfd:Calle>LAGO ZURICH</ecfd:Calle>
+              <ecfd:NroExterior>245</ecfd:NroExterior>
+              <ecfd:NroInterior>EDIFICIO PRESA FALCO</ecfd:NroInterior>
+              <ecfd:Colonia>GRANADA AMPLIACION</ecfd:Colonia>
+              <ecfd:Municipio>MIGUEL HIDALGO</ecfd:Municipio>
+              <ecfd:Estado>Distrito Federal</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>11529</ecfd:CodigoPostal>
+            </ecfd:DomFiscalRcp>
+            <ecfd:LugarRecep>
+              <ecfd:Calle>BLVD. LUIS ECHEVERRIA</ecfd:Calle>
+              <ecfd:NroExterior>686</ecfd:NroExterior>
+              <ecfd:Colonia>REPUBLICA NORTE</ecfd:Colonia>
+              <ecfd:Localidad>SALTILLO SUC. 164 SALTILLO</ecfd:Localidad>
+              <ecfd:Municipio>SALTILLO</ecfd:Municipio>
+              <ecfd:Estado>SALTILLO</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>25290</ecfd:CodigoPostal>
+            </ecfd:LugarRecep>
+          </ecfd:ExReceptor>
+          <ecfd:Totales>
+            <ecfd:Moneda>MXP</ecfd:Moneda>
+            <ecfd:FctConv>0.00</ecfd:FctConv>
+            <ecfd:SubTotal>2407.98</ecfd:SubTotal>
+            <ecfd:MntDcto>0.00</ecfd:MntDcto>
+            <ecfd:MntBase>2407.98</ecfd:MntBase>
+            <ecfd:MntImp>0.00</ecfd:MntImp>
+            <ecfd:VlrPagar>2407.98</ecfd:VlrPagar>
+            <ecfd:VlrPalabras>DOS MIL CUATROCIENTOS SIETE PESOS 98/100 M.N.</ecfd:VlrPalabras>
+          </ecfd:Totales>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>0.00</ecfd:TasaImp>
+            <ecfd:MontoImp>0.00</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+        </ecfd:Encabezado>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>1</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7503014009050</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001178-COLAGEINA GOLD</ecfd:DscItem>
+          <ecfd:QtyItem>6.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>401.33</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>0.00</ecfd:TasaImp>
+            <ecfd:MontoImp>0.00</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>2407.98</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>1</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>ON</ecfd:TpoDocRef>
+          <ecfd:FolioRef>835749</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:TimeStamp>2013-05-17T16:32:18</ecfd:TimeStamp>
+      </ecfd:Documento>
+      <ecfd:Personalizados>
+        <ecfd:campoString name="IdArea" />
+        <ecfd:campoString name="FolioPedido" />
+        <ecfd:campoString name="FechaPedido" />
+        <ecfd:campoString name="ElaboradoPor" />
+        <ecfd:campoString name="ViaEmbarque" />
+        <ecfd:campoString name="NumEmbarque" />
+        <ecfd:campoString name="NumEmbarqueInt" />
+        <ecfd:campoString name="EmRefBanBanca" />
+        <ecfd:campoString name="EmRefBanTitular" />
+        <ecfd:campoString name="EmRefBanCuenta" />
+        <ecfd:campoString name="EmRefBanCLABE" />
+        <ecfd:campoString name="EmRefBanConvenio" />
+        <ecfd:campoString name="EmRepLegNombre" />
+        <ecfd:campoString name="EmRepLegRFC" />
+        <ecfd:campoString name="RecRepLegNombre" />
+        <ecfd:campoString name="RecRepLegRFC" />
+        <ecfd:campoString name="RecRefBanRef" />
+        <ecfd:campoString name="RecEmailDist" />
+        <ecfd:campoString name="EmURL" />
+        <ecfd:campoString name="COD_CLP_BY">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_II">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_SU">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_ST">9</ecfd:campoString>
+        <ecfd:campoString name="CLP_SU" />
+        <ecfd:campoString name="CLP_BY" />
+        <ecfd:campoString name="CLP_II" />
+        <ecfd:campoString name="CLP_ST" />
+        <ecfd:campoString name="RLEGAL" />
+        <ecfd:campoString name="SenderIDGeneric" />
+        <ecfd:campoString name="SenderIDCorvi" />
+        <ecfd:campoString name="SI_ZZZ">DOS MIL CUATROCIENTOS SIETE PESOS 98/100 M.N.</ecfd:campoString>
+        <ecfd:campoString name="pProveedor">612541</ecfd:campoString>
+        <ecfd:campoString name="pCURP" />
+        <ecfd:campoString name="pCliente" />
+        <ecfd:campoString name="EmMarca" />
+        <ecfd:campoString name="Addendas1" />
+        <ecfd:campoString name="Addendas2" />
+        <ecfd:campoString name="Addendas3" />
+        <ecfd:campoString name="Addendas4" />
+        <ecfd:campoString name="Addendas5" />
+        <ecfd:campoString name="Addendas6" />
+        <ecfd:campoString name="TipoBulto">1</ecfd:campoString>
+        <ecfd:campoString name="CantidadBultos" />
+        <ecfd:campoString name="pNmbSucursal" />
+        <ecfd:campoString name="Folio">5</ecfd:campoString>
+        <ecfd:campoString name="MontoImp1" />
+        <ecfd:campoString name="MontoImp2" />
+        <ecfd:campoString name="MontoImp3">0.00</ecfd:campoString>
+        <ecfd:campoString name="MontoImp4" />
+        <ecfd:campoString name="pPers03" />
+        <ecfd:campoString name="pPers04">100017</ecfd:campoString>
+        <ecfd:campoString name="pPers05" />
+        <ecfd:campoString name="pPers06" />
+        <ecfd:campoString name="pPers07" />
+        <ecfd:campoString name="pPers08" />
+        <ecfd:campoString name="pPers09" />
+        <ecfd:campoString name="pPers10" />
+        <ecfd:campoString name="pPers11" />
+        <ecfd:campoString name="pPers12" />
+        <ecfd:campoString name="FolioRefON">835749</ecfd:campoString>
+        <ecfd:campoString name="FolioRefDQ" />
+        <ecfd:campoString name="FechaRefON" />
+        <ecfd:campoString name="FechaRefDQ" />
+        <ecfd:campoString name="RegimenFiscal">REGIMEN GENERAL DE LEY PERSONAS MORALES</ecfd:campoString>
+        <ecfd:campoString name="CuentaDePago">NO IDENTIFICADO</ecfd:campoString>
+        <ecfd:campoString name="LugarDeExpedicion">MEXICO, Nuevo Leon</ecfd:campoString>
+      </ecfd:Personalizados>
+    </ecfd:ECFD>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

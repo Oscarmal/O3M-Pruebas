@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<notas>
+<nota>
+	<autor>Oscar Maldonado</autor>
+	<fecha>09/04/2013 09:30:40</fecha>
+	<titulo>ejemplo de xml parser</titulo>
+	<contenido><![CDATA[ este es el contenido de Oscar ]]></contenido>
+</nota>
+<nota>
+	<autor>Fulanito de Tal</autor>
+	<fecha>12/03/2013 12:30:40</fecha>
+	<titulo>ejemplo de xml parser</titulo>
+	<contenido><![CDATA[ este es el contenido de Fulano ]]></contenido>
+</nota>
+</notas>
+-->
+
+<nota:uno nombre="Nuevo Autor" fecha="Fecha" titulo="Titulo" contenido="Contenido" />

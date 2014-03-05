@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd " version="3.2" serie="MDISD" folio="2" fecha="2013-05-17T22:32:15" sello="euo+Hb/jkfRt8UVi7Yl0YemkW1+agk1FJfigrNWirXTk59IRZeuJQONb/aU49k5s1E7ZtsuyUESmm6Ez9u3gjskbyw72Enk1c5BF0hMRN33+E3AhNvZwgXjUGA47xXQt2X++1XpDDhDfPHoVvbp9DyN0J0THfbizQh4X7goCaCg=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000203465956" certificado="MIIErzCCA5egAwIBAgIUMDAwMDEwMDAwMDAyMDM0NjU5NTYwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDQxNTIwNTE1OFoXDTE3MDQxNTIwNTE1OFowgfAxKDAmBgNVBAMTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxKDAmBgNVBCkTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxKDAmBgNVBAoTH0NPUlBPUkFUSVZPIE1VRkFSIFMgREUgUkwgREUgQ1YxJTAjBgNVBC0THENNVTA2MDExOVVJNyAvIEFFU0o2NDAxMDc0NjYxHjAcBgNVBAUTFSAvIEFFU0o2NDAxMDdIREZMUlYwMzEpMCcGA1UECxMgQ09SUE9SQVRJVk8gTVVGQVIgUyBERSBSTCBERSBDLlYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN+A70SLEA4EvWB53SGFY1roJh3yBB35flcLAgIebCtDUMfIhIY19pTwK4aube1aiRKA1hJze+M21B0qB0h6/LFgoaERxiLArv0SSqHp8MofVNkW9KZ0MXpA/ndd8DWC25j8BdFUPdW7Y+ZNj72qzn/JxzwZfcd6YteeTeUw9Tr1AgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCXNQSun6hit9LFXx2ymlcPJ5DLDCc4iRKym3dsn7N2lotaKSb0b8FVHISSoGBs3ygCywp2nG6Bz9tYO+5x2g04kofAyGrhmLyU296UhqdVcACUASRU0rf5y/3aKxFhSBtIifZSqpzwfQzEAnaYYzBPshYdpvJSJsn8g3R1+tHOwViPWYcxsAvv/ttW85OUjyIMWvsLVGrlCLVDY8UMlOjWGiOT/+vOofdx2M9oXkL3mj5PnlCpkc+adLussnX4BFkmfjzO2Cos/I2z79jAWKhQs11wn/sNQ/gUtYkE6a66W/ta5YRT/KEbRKM23mv5cSqwIPcktj0y7XGYmp/PtjfM" condicionesDePago="CONTADO" subTotal="8136.91" descuento="0.00" TipoCambio="0,00" Moneda="MXP" total="9438.82" tipoDeComprobante="ingreso" metodoDePago="Deposit" LugarExpedicion="MEXICO, Nuevo Leon" NumCtaPago="NO IDENTIFICADO">
+  <cfdi:Emisor rfc="CMU060119UI7" nombre="CORPORATIVO MUFAR, S DE R.L. DE C.V.">
+    <cfdi:DomicilioFiscal calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:ExpedidoEn calle="Avenida Lazaro Cardenas" noExterior="1007-A" noInterior="Planta Baja" colonia="Residencial Santa Barbara" municipio="Nuevo Leon" estado="Nuevo Leon" pais="MEXICO" codigoPostal="66266" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="CAGM6602279Y3" nombre="MERCEDES CAMPOY GOMEZ DEL CASTILLO">
+    <cfdi:Domicilio calle="AVENIDA EMILIO GUSTAVO BAZ" noExterior="59" noInterior="4" colonia="INDEPENDENCIA" municipio="NAUCALPAN DE JUAREZ" estado="Mexico" pais="MEXICO" codigoPostal="53830" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502233301471" descripcion="400001043-BODY CRUNCH" valorUnitario="2413.18" importe="2413.18" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502000062116" descripcion="400001311-EAGLE EYES SIERRA" valorUnitario="482.16" importe="482.16" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502000062123" descripcion="400001312-EAGLE EYES TUSCANY" valorUnitario="482.16" importe="482.16" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502000062130" descripcion="400001313-EAGLE EYES ASTI" valorUnitario="482.16" importe="482.16" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502000063625" descripcion="400001320-EAGLE EYES EXTREME" valorUnitario="482.16" importe="482.16" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502000063632" descripcion="400001321-EAGLE EYES EXPLORER" valorUnitario="482.16" importe="482.16" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502233304359" descripcion="400001324-EAGLE EYES GEM STONE BLACK" valorUnitario="421.81" importe="421.81" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="7502233309897" descripcion="400001343-EAGLE EYES FIT ONS BLACK" valorUnitario="482.16" importe="482.16" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060167" descripcion="400001620-QUEBARE CH NEGRA" valorUnitario="301.12" importe="301.12" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060174" descripcion="400001621-QUEBARE MED NEGRA" valorUnitario="301.12" importe="301.12" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060181" descripcion="400001622-QUEBARE G NEGRA" valorUnitario="301.12" importe="301.12" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060198" descripcion="400001623-QUEBARE EXG NEGRA" valorUnitario="301.12" importe="301.12" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060204" descripcion="400001624-QUEBARE CH BEIGE" valorUnitario="301.12" importe="301.12" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060211" descripcion="400001625-QUEBARE MED BEIGE" valorUnitario="301.12" importe="301.12" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060228" descripcion="400001626-QUEBARE G BEIGE" valorUnitario="301.12" importe="301.12" />
+    <cfdi:Concepto cantidad="1.00" unidad="PZA" noIdentificacion="614915060235" descripcion="400001627-QUEBARE EXG BEIGE" valorUnitario="301.12" importe="301.12" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1301.91">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1301.94" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento><tfd:TimbreFiscalDigital version="1.0" UUID="b26fceda-8901-478d-b959-f9d5cc8c649c" FechaTimbrado="2013-05-17T16:32:10" selloCFD="euo+Hb/jkfRt8UVi7Yl0YemkW1+agk1FJfigrNWirXTk59IRZeuJQONb/aU49k5s1E7ZtsuyUESmm6Ez9u3gjskbyw72Enk1c5BF0hMRN33+E3AhNvZwgXjUGA47xXQt2X++1XpDDhDfPHoVvbp9DyN0J0THfbizQh4X7goCaCg=" noCertificadoSAT="00001000000103678909" selloSAT="fJgjEnfVaQ/Gan/Q+m9ro1qaQ6sLizKkK+3pT9I393eay4Ctja2ZJiznf88Xms0ly3EeZdnAzsnNPA6E3xc2rw89aRYFnyH5uJVhUSPmPWqrzdC3xKa85nMyPiIp2sVxMke+HiifEB8g1FeT9H4o6IhJxjZQOXkkLXUlXRfjq8I=" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" /></cfdi:Complemento><cfdi:Addenda xmlns:ecfd="http://www.southconsulting.com/schemas/strict" xsi:schemaLocation="http://www.southconsulting.com/schemas/strict http://www.southconsulting.com/schemas/strict/ecfd.xsd">
+    <ecfd:ECFD version="1.0">
+      <ecfd:Documento ID="T33MDISD2">
+        <ecfd:Encabezado>
+          <ecfd:IdDoc>
+            <ecfd:NroAprob>1</ecfd:NroAprob>
+            <ecfd:AnoAprob>1900</ecfd:AnoAprob>
+            <ecfd:Tipo>33</ecfd:Tipo>
+            <ecfd:Serie>MDISD</ecfd:Serie>
+            <ecfd:Folio>2</ecfd:Folio>
+            <ecfd:Estado>ORIGINAL</ecfd:Estado>
+            <ecfd:NumeroInterno>7</ecfd:NumeroInterno>
+            <ecfd:FechaEmis>2013-05-17T22:32:15</ecfd:FechaEmis>
+            <ecfd:FormaPago>PAGO EN UNA SOLA EXHIBICION</ecfd:FormaPago>
+            <ecfd:MedioPago>Deposit</ecfd:MedioPago>
+            <ecfd:LugarExpedicion>MEXICO, Nuevo Leon</ecfd:LugarExpedicion>
+            <ecfd:NumCtaPago>NO IDENTIFICADO</ecfd:NumCtaPago>
+            <ecfd:CondPago>CONTADO</ecfd:CondPago>
+            <ecfd:TermPagoCdg>1</ecfd:TermPagoCdg>
+          </ecfd:IdDoc>
+          <ecfd:ExEmisor>
+            <ecfd:RFCEmisor>CMU060119UI7</ecfd:RFCEmisor>
+            <ecfd:NmbEmisor>CORPORATIVO MUFAR, S DE R.L. DE C.V.</ecfd:NmbEmisor>
+            <ecfd:CdgGLNEmisor>7504024371007</ecfd:CdgGLNEmisor>
+            <ecfd:DomFiscal>
+              <ecfd:Calle>Avenida Lazaro Cardenas</ecfd:Calle>
+              <ecfd:NroExterior>1007-A</ecfd:NroExterior>
+              <ecfd:NroInterior>Planta Baja</ecfd:NroInterior>
+              <ecfd:Colonia>Residencial Santa Barbara</ecfd:Colonia>
+              <ecfd:Municipio>Nuevo Leon</ecfd:Municipio>
+              <ecfd:Estado>Nuevo Leon</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>66266</ecfd:CodigoPostal>
+              <ecfd:GLN>7504024371007</ecfd:GLN>
+            </ecfd:DomFiscal>
+            <ecfd:LugarExped>
+              <ecfd:Calle>Avenida Lazaro Cardenas</ecfd:Calle>
+              <ecfd:NroExterior>1007-A</ecfd:NroExterior>
+              <ecfd:NroInterior>Planta Baja</ecfd:NroInterior>
+              <ecfd:Colonia>Residencial Santa Barbara</ecfd:Colonia>
+              <ecfd:Municipio>Nuevo Leon</ecfd:Municipio>
+              <ecfd:Estado>Nuevo Leon</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>66266</ecfd:CodigoPostal>
+              <ecfd:GLN>7504024371007</ecfd:GLN>
+            </ecfd:LugarExped>
+          </ecfd:ExEmisor>
+          <ecfd:ExReceptor>
+            <ecfd:RFCRecep>CAGM6602279Y3</ecfd:RFCRecep>
+            <ecfd:NmbRecep>MERCEDES CAMPOY GOMEZ DEL CASTILLO</ecfd:NmbRecep>
+            <ecfd:DomFiscalRcp>
+              <ecfd:Calle>AVENIDA EMILIO GUSTAVO BAZ</ecfd:Calle>
+              <ecfd:NroExterior>59</ecfd:NroExterior>
+              <ecfd:NroInterior>4</ecfd:NroInterior>
+              <ecfd:Colonia>INDEPENDENCIA</ecfd:Colonia>
+              <ecfd:Municipio>NAUCALPAN DE JUAREZ</ecfd:Municipio>
+              <ecfd:Estado>Mexico</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>53830</ecfd:CodigoPostal>
+            </ecfd:DomFiscalRcp>
+            <ecfd:LugarRecep>
+              <ecfd:Calle>AVENIDA EMILIO GUSTAVO BAZ</ecfd:Calle>
+              <ecfd:NroExterior>59</ecfd:NroExterior>
+              <ecfd:NroInterior>4</ecfd:NroInterior>
+              <ecfd:Colonia>INDEPENDENCIA</ecfd:Colonia>
+              <ecfd:Localidad>ESTADO DE MEXICO</ecfd:Localidad>
+              <ecfd:Municipio>NAUCALPAN DE JUAREZ</ecfd:Municipio>
+              <ecfd:Estado>Mexico</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>53830</ecfd:CodigoPostal>
+            </ecfd:LugarRecep>
+          </ecfd:ExReceptor>
+          <ecfd:Totales>
+            <ecfd:Moneda>MXP</ecfd:Moneda>
+            <ecfd:FctConv>0.00</ecfd:FctConv>
+            <ecfd:SubTotal>8136.91</ecfd:SubTotal>
+            <ecfd:MntDcto>0.00</ecfd:MntDcto>
+            <ecfd:MntBase>8136.91</ecfd:MntBase>
+            <ecfd:MntImp>1301.91</ecfd:MntImp>
+            <ecfd:VlrPagar>9438.82</ecfd:VlrPagar>
+            <ecfd:VlrPalabras>NUEVE MIL CUATROCIENTOS TREINTA Y OCHO PESOS 82/100 M.N.</ecfd:VlrPalabras>
+          </ecfd:Totales>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>1301.94</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+        </ecfd:Encabezado>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>1</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502233301471</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001043-BODY CRUNCH</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>2413.18</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>386.11</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>2413.18</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>2</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502000062116</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001311-EAGLE EYES SIERRA</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>482.16</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>77.15</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>482.16</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>3</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502000062123</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001312-EAGLE EYES TUSCANY</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>482.16</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>77.15</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>482.16</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>4</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502000062130</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001313-EAGLE EYES ASTI</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>482.16</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>77.15</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>482.16</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>5</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502000063625</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001320-EAGLE EYES EXTREME</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>482.16</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>77.15</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>482.16</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>6</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502000063632</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001321-EAGLE EYES EXPLORER</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>482.16</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>77.15</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>482.16</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>7</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502233304359</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001324-EAGLE EYES GEM STONE BLACK</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>421.81</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>67.49</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>421.81</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>8</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>7502233309897</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001343-EAGLE EYES FIT ONS BLACK</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>482.16</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>77.15</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>482.16</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>9</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060167</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001620-QUEBARE CH NEGRA</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>10</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060174</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001621-QUEBARE MED NEGRA</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>11</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060181</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001622-QUEBARE G NEGRA</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>12</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060198</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001623-QUEBARE EXG NEGRA</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>13</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060204</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001624-QUEBARE CH BEIGE</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>14</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060211</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001625-QUEBARE MED BEIGE</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>15</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060228</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001626-QUEBARE G BEIGE</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>16</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>614915060235</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>400001627-QUEBARE EXG BEIGE</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:UnmdItem>PZA</ecfd:UnmdItem>
+          <ecfd:PrcNetoItem>301.12</ecfd:PrcNetoItem>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16.00</ecfd:TasaImp>
+            <ecfd:MontoImp>48.18</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>301.12</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:TimeStamp>2013-05-17T16:32:17</ecfd:TimeStamp>
+      </ecfd:Documento>
+      <ecfd:Personalizados>
+        <ecfd:campoString name="IdArea" />
+        <ecfd:campoString name="FolioPedido" />
+        <ecfd:campoString name="FechaPedido" />
+        <ecfd:campoString name="ElaboradoPor" />
+        <ecfd:campoString name="ViaEmbarque" />
+        <ecfd:campoString name="NumEmbarque" />
+        <ecfd:campoString name="NumEmbarqueInt" />
+        <ecfd:campoString name="EmRefBanBanca" />
+        <ecfd:campoString name="EmRefBanTitular" />
+        <ecfd:campoString name="EmRefBanCuenta" />
+        <ecfd:campoString name="EmRefBanCLABE" />
+        <ecfd:campoString name="EmRefBanConvenio" />
+        <ecfd:campoString name="EmRepLegNombre" />
+        <ecfd:campoString name="EmRepLegRFC" />
+        <ecfd:campoString name="RecRepLegNombre" />
+        <ecfd:campoString name="RecRepLegRFC" />
+        <ecfd:campoString name="RecRefBanRef" />
+        <ecfd:campoString name="RecEmailDist" />
+        <ecfd:campoString name="EmURL" />
+        <ecfd:campoString name="COD_CLP_BY">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_II">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_SU">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_ST">9</ecfd:campoString>
+        <ecfd:campoString name="CLP_SU" />
+        <ecfd:campoString name="CLP_BY" />
+        <ecfd:campoString name="CLP_II" />
+        <ecfd:campoString name="CLP_ST" />
+        <ecfd:campoString name="RLEGAL" />
+        <ecfd:campoString name="SenderIDGeneric" />
+        <ecfd:campoString name="SenderIDCorvi" />
+        <ecfd:campoString name="SI_ZZZ">NUEVE MIL CUATROCIENTOS TREINTA Y OCHO PESOS 82/100 M.N.</ecfd:campoString>
+        <ecfd:campoString name="pProveedor" />
+        <ecfd:campoString name="pCURP" />
+        <ecfd:campoString name="pCliente" />
+        <ecfd:campoString name="EmMarca" />
+        <ecfd:campoString name="Addendas1" />
+        <ecfd:campoString name="Addendas2" />
+        <ecfd:campoString name="Addendas3" />
+        <ecfd:campoString name="Addendas4" />
+        <ecfd:campoString name="Addendas5" />
+        <ecfd:campoString name="Addendas6" />
+        <ecfd:campoString name="TipoBulto">1</ecfd:campoString>
+        <ecfd:campoString name="CantidadBultos" />
+        <ecfd:campoString name="pNmbSucursal" />
+        <ecfd:campoString name="Folio">2</ecfd:campoString>
+        <ecfd:campoString name="MontoImp1">1,301.94</ecfd:campoString>
+        <ecfd:campoString name="MontoImp2" />
+        <ecfd:campoString name="MontoImp3" />
+        <ecfd:campoString name="MontoImp4" />
+        <ecfd:campoString name="pPers03" />
+        <ecfd:campoString name="pPers04">100021</ecfd:campoString>
+        <ecfd:campoString name="pPers05" />
+        <ecfd:campoString name="pPers06" />
+        <ecfd:campoString name="pPers07" />
+        <ecfd:campoString name="pPers08" />
+        <ecfd:campoString name="pPers09" />
+        <ecfd:campoString name="pPers10" />
+        <ecfd:campoString name="pPers11" />
+        <ecfd:campoString name="pPers12" />
+        <ecfd:campoString name="FolioRefON" />
+        <ecfd:campoString name="FolioRefDQ" />
+        <ecfd:campoString name="FechaRefON" />
+        <ecfd:campoString name="FechaRefDQ" />
+        <ecfd:campoString name="RegimenFiscal">REGIMEN GENERAL DE LEY PERSONAS MORALES</ecfd:campoString>
+        <ecfd:campoString name="CuentaDePago">NO IDENTIFICADO</ecfd:campoString>
+        <ecfd:campoString name="LugarDeExpedicion">MEXICO, Nuevo Leon</ecfd:campoString>
+      </ecfd:Personalizados>
+    </ecfd:ECFD>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

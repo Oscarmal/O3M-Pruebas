@@ -1,0 +1,22 @@
+<script>
+function crearPDF(){
+    var url = f_datos.url.value;
+    location.href='dopdf.php?i=1&url='+url;
+}
+</script>
+<form name="f_datos" method="POST" action="">
+<table border="0"> 
+    <tr>
+        <th Colspan="3">URL to PDF</th>        
+    </tr>
+    <tr>
+        <td class='table-label'><b>URL:</b>&nbsp;</td> 
+        <td class='table-field' >
+        <input type="text" id="url" name="url" size="30" />
+        </td>
+        <td class='table-center' colspan="2" >
+        <input type="button" id="crear" name="crear" value=":: Crear PDF ::" onclick="crearPDF();" />
+        </td>
+    </tr>        
+</table>
+</form>
