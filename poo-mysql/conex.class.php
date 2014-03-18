@@ -1,71 +1,69 @@
 <?php
 /**
-* Conexion a DB vía MySQLi
+* Conexion a DB vía MySQL
 * @author Oscar Maldonado
 * O3M
 */
-class conexDB{
+class ConexDB{
 	//Atributos fijos
-	var $host; 
-	var $database; 
-	var $user; 
-	var $pass; 
-	var $link;
+	private $host; 
+	private $database; 
+	private $user; 
+	private $pass; 
+	private $link;
 	//Atributos variabes
-	var $resultado;
-	var $consulta;	
+	public $resultado = array();
+	public $consulta;	
 	
-	function conexDB(){
-	//opt 2: function conexDB($host,$database,$user,$pass){
+	function __construct(){
 	//Contructor de clase
 		$this->host='localhost';
 		$this->database='o3m_test';
 		$this->user='root';
-		$this->pass='osc445';
+		$this->pass='';
 	}
 
-	function conectarBD(){	
+	private function conectarBD(){	
 	//Conexión a DB		
-		if($link=mysql_connect($this->host,$this->user,$this->pass)){	
-			if(mysql_select_db($this->database,$link)){
-				$this->link=$link;
+		if($this->link=mysql_connect($this->host,$this->user,$this->pass)){	
+			if(mysql_select_db($this->database,$this->link)){
+				return true;
 			}else{
-				echo "Error al seleccionar la base de datos: ".$this->database;		
-				exit();	
+				throw new Exception("Error al seleccionar la base de datos: ".$this->database);
+				return false;
 			}		
 		}else{
-			echo "Error al conectar con el Servidor: ".$this->host;		
-			exit();	
+			throw new Exception("Error al conectar con el Servidor: ".$this->host);
+			return false;
 		}
 	}
-	
-	function consultarBD($sentenciaSQL){
-	//Ejecuta consulta
-		$this->conectarBD();
-		$con=$this->consulta=mysql_query($sentenciaSQL,$this->link) or die(mysql_error());	
-		return $con;
-	}
-	
-	function obtenerResultado($sentenciaSQL){
-	//Obtiene los resultados del query
-		$query=$this->consultarBD($sentenciaSQL);
-		$this->resultado=mysql_fetch_array($query);	
-		#$this->resultado=mysql_fetch_array($this->consulta);	
-		return $this->resultado;	
-	}
 
-	function insertarRegistro($sentenciaSQL){	
-		mysql_query($sentenciaSQL,$this->link);	
+	public function SQLQuery($sentenciaSQL){
+	//Ejecuta consulta y regresa en un array el resultado
+		try{
+			$this->conectarBD();
+			$this->consulta=mysql_query($sentenciaSQL,$this->link) or die(mysql_error());	
+			$this->resultado=mysql_fetch_array($this->consulta);
+			$this->liberarConsulta();
+			$this->desconectarBD();
+			return $this->resultado;
+		}catch(Exception $e){
+			echo 'Error al realizar la consulta: ',  $e->getMessage(), "\n";
+			return false;
+		}
+
 	}
-	
-	function liberarConsulta(){	
+		
+	private function liberarConsulta(){	
 	//Libera el cache
 		mysql_free_result($this->consulta);	
+		return true;
 	}
 	
-	function desconectarBD(){
+	private function desconectarBD(){
 	//cierra la conexión a la DB	
 		mysql_close($this->link);
+		return true;
 	}
 	
 }

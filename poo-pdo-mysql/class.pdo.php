@@ -10,14 +10,14 @@ class db {
 	private $pass;
 	private $database;
 
-	function ServerData(){
+	public function ServerData(){
 		$this->host='localhost';
 		$this->user='root';
 		$this->pass='';
 		$this->database='o3m_test';
 	}
 
-	function SQLConn(){
+	public function SQLConn(){
 	//Crea conexión con base de datos	    
 	    try{
 	    //Validación de conexión vía PDO
@@ -39,7 +39,7 @@ class db {
 	    }
 	}
 
-	function SQLQuery($SQL){
+	public function SQLQuery($SQL){
 	//Ejecuta consultas de extracción
 		$Cmd=array('SELECT');
 		$vSql=explode(' ',$SQL);

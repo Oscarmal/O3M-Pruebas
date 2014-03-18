@@ -1,11 +1,11 @@
 <?php
 include("conex.class.php");
-$objBd=new conexDB();
-$objBd->conectarBD();
-$objBd->consultarBD("select * from tbl_test");
-while($row=$objBd->obtenerResultado()){
-	printf("%s<br>",$row[0]);
+$objBd=new ConexDB();
+$sql = "select * from tbl_test";
+$Rows = $objBd->SQLQuery($sql);
+print_r($Rows);
+foreach($Rows as $Row){
+	echo $Row;
+	echo "<br/>";
 }
-$objBd->liberarConsulta();
-$objBd->desconectarBD();
 ?>
