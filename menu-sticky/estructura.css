@@ -1,0 +1,132 @@
+/*
+html, body { 
+	height: 100%; /*100%*
+	width: 100%; /*100%*
+	margin: 0 auto;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+#area-trabajo{
+	position: absolute;
+	overflow: hidden;
+	width: 99.7%;
+	height: 99.6%;
+	border: 1px solid red;
+	z-index: 1;
+}
+#cabecera{
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	background-color: blue;
+	float: left;
+	clear: both;
+	z-index: 2;
+}
+#cuerpo{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: green;
+	float: left;
+	clear: both;
+	z-index: 2;
+}
+#pie{
+	position: fixed;
+	bottom: 0px;
+	height: 20px;
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: orange;
+	z-index: 2;
+}
+#menu-izq{
+	position: relative;
+	top: 0;
+	max-width: 120px;
+	min-width: 100px;
+	width: 100%;
+	height: 90%;
+	float: left;	
+	border: 1px solid #DDD;
+}
+*/
+
+* {
+		    margin: 0;
+		    padding: 0;
+		}
+		html {
+		    font-family: Arial, Helvetica;
+		    font-size: 12px;
+		    color: #eee;
+		}
+		body {
+		    background-color: #222;    
+		}
+		h1 {
+		    font-family: Helvetica, Arial;
+		    font-size: 40px;
+		    font-weight: bold;
+		    margin: 10px 0 10px 0;
+		}
+		h1 a {
+		    text-decoration: none;
+		    color: #8cbf26;
+		}
+		h1 a:hover {
+		    text-decoration: underline;
+		}
+		p {
+		    margin-bottom: 15px;
+		    text-align: justify;
+		}
+		header {
+		    color: yellow;
+		    max-width: 960px;
+		    margin: auto;
+		    margin-top: 20px; 
+		}
+		.content, footer {
+		    max-width: 960px;
+		    margin: auto;
+		}
+
+		/*** Sticky Menu ***/
+		nav {
+		    background-color: #1ba1e2;
+		    height: 35px;
+
+		    
+		}
+		nav ul {
+		    width: 960px;
+		    margin: auto;
+		}
+		nav ul li {
+		    line-height: 35px;
+		    display: inline-block;
+		    padding-right: 50px;
+		}
+		nav ul li a {
+		    text-decoration: none;
+		    color: #fff;
+		    font-weight: bold;
+		}
+		nav ul li a:hover {
+		    text-decoration: underline;
+		}
+		.fixed {
+		    position:fixed;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		}
