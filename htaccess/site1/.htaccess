@@ -1,0 +1,13 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+AuthUserFile /.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user 
+ErrorDocument 400 error400.php
+ErrorDocument 404 error404.php
+DirectoryIndex index.php    
+order deny,allow
