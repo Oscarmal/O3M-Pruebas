@@ -1,0 +1,28 @@
+#Acceso a archivos
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+#Evita acceso a carpeta sin archivo index
+Options All -Indexes
+#Options All +Indexes
+#Options Indexes
+#Evita el listado de directorios
+IndexIgnore *
+#Pagina de inicio por defecto
+DirectoryIndex sitio/index.php index.php
+#Redireccion a otro sitio
+#Redirect /pruebas/responsive/site2/sitio/r.php /pruebas/responsive/site2/index.php
+#Manejo de errores
+ErrorDocument 400 /pruebas/responsive/site2/sitio/error400.php
+ErrorDocument 403 /pruebas/responsive/site2/sitio/error403.php
+ErrorDocument 404 /pruebas/responsive/site2/sitio/error404.php
+ErrorDocument 500 /pruebas/responsive/site2/sitio/error500.php
+order deny,allow
+#Habilita compresión (ahorra ancho de banda)
+<ifmodule mod_php4.c>
+php_value zlib.output_compression 16386
+</ifmodule>
+#Tipo de codificación de caracteres
+AddDefaultCharset utf-8	
+#Pasar variables por URL "amigable"
+#RewriteRule ^site2/(.+)/(.+)\.html /pruebas/responsive/site2/sitio/codigo.php?var1=$2&var2=$1

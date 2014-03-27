@@ -1,0 +1,10 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+AuthUserFile .htpasswd
+AuthGroupFile /dev/null
+AuthName "Ingrese sus datos de autentificacion"
+AuthType Basic
+require valid-user 
+order deny,allow

@@ -1,0 +1,7 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options All -Indexes
+IndexIgnore *
+ErrorDocument 403 /pruebas/responsive/site2/sitio/error403.php
+order deny,allow
