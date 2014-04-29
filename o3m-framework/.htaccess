@@ -1,0 +1,21 @@
+#Acceso a archivos
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+#Evita acceso a carpeta sin archivo index
+Options All -Indexes
+#Evita el listado de directorios
+IndexIgnore *
+#Pagina de inicio por defecto
+#DirectoryIndex site/index.php
+#Manejo de errores
+ErrorDocument 400 /pruebas/o3m-framework/site/error/error400.php
+ErrorDocument 404 /pruebas/o3m-framework/site/error/error404.php
+ErrorDocument 500 /pruebas/o3m-framework/site/error/error500.php
+order deny,allow
+#Habilita compresión (ahorra ancho de banda)
+<ifmodule mod_php4.c>
+php_value zlib.output_compression 16386
+</ifmodule>
+#Tipo de codificación de caracteres
+AddDefaultCharset utf-8	
